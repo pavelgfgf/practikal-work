@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер фотографий</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider-container">
+    <!-- Контейнер с изображениями -->
+    <div class="slides">
+        <div class="slide"><img src="photo/6158fff5f658430968595c4ddadd2607.jpg" alt="Slide 1"></div>
+        <div class="slide"><img src="photo/i.webp" alt="Slide 2"></div>
+        <div class="slide"><img src="photo/v-gorah-altaya-zastryali-chetvero-turistov-iz-kemerovo-blog.jpg" alt="Slide 3"></div>
+        <div class="slide"><img src="photo/lMuqIAyPLbeEMXIgZdL_dW8_SV9sBLa12JSTBP_-_qN6ZYEeZ1z0LCkde4m1yCxGb4tfgPiehzA62y3cgs6d1GwXKvj0e6grLIWHfAXu13EaZjkzhKg.jpg" alt="Slide 4"></div>
+    </div>
+
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
